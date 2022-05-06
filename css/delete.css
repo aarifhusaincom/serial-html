@@ -1,0 +1,39 @@
+@font-face {
+  font-family: Signatra;
+  src: url(../fonts/Signatra.ttf);
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: #b1ff97;
+}
+
+.child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  background-color: rgb(103, 37, 185);
+}
+
+
+
+.child1 {
+  background-color: #e30080;
+}
+
+.child2 {
+  background-color: #9c4705;
+}
+
+.child3 {
+  background-color: #ff81db;
+}
