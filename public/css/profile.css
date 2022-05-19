@@ -28,17 +28,20 @@
     justify-content: center;
 } */
 
-/* .parent{
-    max-width: 768;
+.parent{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
   
-} */
+}
 
 /* app bar started */
 .appBar{
-    max-width: 900px;
+    max-width: 500px;
     width: 100%;
     height: 50px;
-    background-color: #6e1e1e;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -47,6 +50,7 @@
     padding-left: 20px;
     padding-right: 20px;
     position: fixed;
+    margin: auto;
 }
 
 img.back{
